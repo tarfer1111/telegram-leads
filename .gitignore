@@ -1,0 +1,65 @@
+# .gitignore
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Database files (NOT migrations!)
+*.db
+*.sqlite3
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Frontend build
+/frontend/dist/
+/frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.pid
+*.seed
+*.sock
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Editor
+.vscode/
+*.sublime-project
+*.sublime-workspace
